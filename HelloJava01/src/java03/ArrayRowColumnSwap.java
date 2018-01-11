@@ -26,6 +26,7 @@ public class ArrayRowColumnSwap {
 		for(int i=0;i<arr3.length;i++){
 			tr += arr3[i][i];
 		}
+//		数组的迹
 		System.out.println(tr);
 	}
 }
