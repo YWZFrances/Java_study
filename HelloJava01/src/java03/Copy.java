@@ -9,6 +9,7 @@ public class Copy {
 		for(int i=0;i<arr.length;i++){
 			System.out.print(arr[i]+"\t");
 		}
+		System.out.print("\n");
 		int arrnew[] = Arrays.copyOf(arr,3); 
 		System.out.println("现在是");	
 		for(int i=0;i<arrnew.length;i++){
